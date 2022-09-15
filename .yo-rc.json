@@ -1,0 +1,13 @@
+{
+  "generator-ui5-app": {
+    "application": "walkthrough",
+    "namespace": "de.myorg",
+    "framework": "OpenUI5",
+    "frameworkVersion": "1.106.0",
+    "author": "Matthäus Otremba",
+    "initrepo": false,
+    "appId": "de.myorg.walkthrough",
+    "appURI": "de/myorg/walkthrough",
+    "setupCompleted": true
+  }
+}

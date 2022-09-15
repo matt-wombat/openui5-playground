@@ -2,7 +2,13 @@
 
 ## Description
 
-This app demonstrates a standard setup for developing UI5 applications.
+This app represents my own implementation of the openUI5 Walkthrough tutorial at
+
+    https://sdk.openui5.org/topic/3da5f4be63264db99f2e5b04c5e853db
+
+The scaffolding was created with the Easy-ui5 Yeoman generator
+
+    https://github.com/SAP/generator-easy-ui5
 
 ## Requirements
 
