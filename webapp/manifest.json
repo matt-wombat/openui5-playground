@@ -1,46 +1,49 @@
 {
-	"_version": "1.12.0",
+    "_version": "1.12.0",
+    "sap.app": {
+        "id": "sap.ui.demo.walkthrough",
+        "type": "application",
+        "i18n": "i18n/i18n.properties",
+        "title": "{{appTitle}}",
+        "description": "{{appDescription}}",
+        "applicationVersion": {
+            "version": "1.0.0"
+        }
+    },
 
-	"sap.app": {
-		"id": "de.myorg.walkthrough",
-		"type": "application",
-		"i18n": "i18n/i18n.properties",
-		"title": "{{appTitle}}",
-		"description": "{{appDescription}}",
-		"applicationVersion": {
-			"version": "1.0.0"
-		}
-	},
-
-	"sap.ui": {
-		"technology": "UI5",
-		"icons": {
-
-		},
-		"deviceTypes": {
-			"desktop": true,
-			"tablet": true,
-			"phone": true
-		}
-	},
+    "sap.ui": {
+        "technology": "UI5",
+        "deviceTypes": {
+            "desktop": true,
+            "tablet": true,
+            "phone": true
+        }
+    },
 
 	"sap.ui5": {
-		"rootView": {
-			"viewName": "de.myorg.walkthrough.view.App",
-			"type": "XML",
-			"async": true,
-			"id": "app"
-		},
-
-		"dependencies": {
-			"minUI5Version": "1.106.0",
-			"libs": {
-				"sap.ui.core": {},
-				"sap.ui.layout": {},
-				"sap.ui.unified": {},
-				"sap.m": {}
-			}
-		},
+        "rootView": {
+            "viewName": "sap.ui.demo.walkthrough.view.App",
+            "type": "XML",
+            "id": "app"
+        },
+        "dependencies": {
+		    "minUI5Version": "1.106.0",
+            "libs": {
+                "sap.ui.core": {},
+                "sap.m": {}
+            }
+        },
+        "models": {
+            "i18n": {
+                "type": "sap.ui.model.resource.ResourceModel",
+                "settings": {
+                    "bundleName": "sap.ui.demo.walkthrough.i18n.i18n",
+                    "supportedLocales": [""],
+                    "fallbackLocale": ""
+                }
+            }
+        },
+     
 
 		"handleValidation": true,
 
@@ -49,20 +52,11 @@
 			"cozy": true
 		},
 
-		"models": {
-			"i18n": {
-				"type": "sap.ui.model.resource.ResourceModel",
-				"settings": {
-					"bundleName": "de.myorg.walkthrough.i18n.i18n"
-				}
-			}
-		},
-
 		"routing": {
 			"config": {
 				"routerClass": "sap.m.routing.Router",
 				"viewType": "XML",
-				"viewPath": "de.myorg.walkthrough.view",
+				"viewPath": "sap.ui.demo.walkthrough.view",
 				"controlId": "app",
 				"controlAggregation": "pages",
 				"async": true
