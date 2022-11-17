@@ -89,3 +89,43 @@ npm run lint
 ## License
 
 This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSE) file.
+
+## Implemented Parts of the Walkthrough
+
+* [Done] Step 1: Hello World!
+* [Done] Step 2: Bootstrap
+* [Done] Step 3: Controls
+* [Done] Step 4: XML Views
+* [Done] Step 5: Controllers
+* [Done] Step 6: Modules
+* [Done] Step 7: JSON Model
+* [Done] Step 8: Translatable Texts
+* [Done] Step 9: Component Configuration
+* [Done] Step 10: Descriptor for Applications
+* [Done] Step 11: Pages and Panels
+* [Done] Step 12: Shell Control as Container
+* [Done] Step 13: Margins and Paddings
+* [Done] Step 14: Custom CSS and Theme Colors
+* [Done] Step 15: Nested Views
+* [Done] Step 16: Dialogs and Fragments
+* [Done] Step 17: Fragment Callbacks
+* [Done] Step 18: Icons
+* [Done] Step 19: Aggregation Binding
+* Step 20: Data Types
+* Step 21: Expression Binding
+* Step 22: Custom Formatters
+* Step 23: Filtering
+* Step 24: Sorting and Grouping
+* Step 25: Remote OData Service
+* Step 26: Mock Server Configuration
+* Step 27: Unit Test with QUnit
+* Step 28: Integration Test with OPA
+* Step 29: Debugging Tools
+* Step 30: Routing and Navigation
+* Step 31: Routing with Parameters
+* Step 32: Routing Back and History
+* Step 33: Custom Controls
+* Step 34: Responsiveness
+* Step 35: Device Adaptation
+* Step 36: Content Density
+* Step 37: Accessibility
