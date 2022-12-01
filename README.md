@@ -111,8 +111,8 @@ This project is licensed under the Apache Software License, version 2.0 except a
 * [Done] Step 17: Fragment Callbacks
 * [Done] Step 18: Icons
 * [Done] Step 19: Aggregation Binding
-* Step 20: Data Types
-* Step 21: Expression Binding
+* [Done] Step 20: Data Types
+* [Done] Step 21: Expression Binding
 * Step 22: Custom Formatters
 * Step 23: Filtering
 * Step 24: Sorting and Grouping
