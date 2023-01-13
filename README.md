@@ -114,8 +114,8 @@ This project is licensed under the Apache Software License, version 2.0 except a
 * [Done] Step 20: Data Types
 * [Done] Step 21: Expression Binding
 * [Done] Step 22: Custom Formatters
-* Step 23: Filtering
-* Step 24: Sorting and Grouping
+* [Done] Step 23: Filtering
+* [Done] Step 24: Sorting and Grouping
 * Step 25: Remote OData Service
 * Step 26: Mock Server Configuration
 * Step 27: Unit Test with QUnit
