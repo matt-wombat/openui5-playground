@@ -9,10 +9,12 @@
     "build:opt": "ui5 build self-contained --clean-dest --all",
     "start": "ui5 serve --port 8080 -o index.html",
     "start:dist": "ui5 serve  --port 8080 -o index.html --config ui5-dist.yaml",
-    "lint": "eslint webapp"
+    "lint": "eslint webapp",
+    "proxy": "node proxy.js"
   },
   "devDependencies": {
     "@ui5/cli": "^2.14.10",
+    "cors-anywhere": "^0.4.4",
     "eslint": "^8.22.0",
     "ui5-middleware-livereload": "^0.7.0"
   },

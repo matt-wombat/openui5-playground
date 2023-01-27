@@ -24,6 +24,12 @@ npm i
 
 (To use yarn, just do `yarn` instead.)
 
+## Run CORS anywhere Proxy if needed (untested - does not work with SAP BTP Trial)
+
+```sh
+npm run proxy
+```
+
 ## Run the App
 
 Execute the following command to run the app locally for development in watch mode (the browser reloads the app automatically when there are changes in the source code):
@@ -116,7 +122,7 @@ This project is licensed under the Apache Software License, version 2.0 except a
 * [Done] Step 22: Custom Formatters
 * [Done] Step 23: Filtering
 * [Done] Step 24: Sorting and Grouping
-* Step 25: Remote OData Service
+* [Untested] Step 25: Remote OData Service using node.js based CORS proxy "cors-anywhere"
 * Step 26: Mock Server Configuration
 * Step 27: Unit Test with QUnit
 * Step 28: Integration Test with OPA
@@ -129,3 +135,6 @@ This project is licensed under the Apache Software License, version 2.0 except a
 * Step 35: Device Adaptation
 * Step 36: Content Density
 * Step 37: Accessibility
+
+
+
