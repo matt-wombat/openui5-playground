@@ -122,7 +122,7 @@ This project is licensed under the Apache Software License, version 2.0 except a
 * [Done] Step 22: Custom Formatters
 * [Done] Step 23: Filtering
 * [Done] Step 24: Sorting and Grouping
-* [Untested] Step 25: Remote OData Service using node.js based CORS proxy "cors-anywhere"
+* [Failed] Step 25: Remote OData Service using node.js based CORS proxy "cors-anywhere"
 * Step 26: Mock Server Configuration
 * Step 27: Unit Test with QUnit
 * Step 28: Integration Test with OPA
