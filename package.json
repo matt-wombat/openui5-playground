@@ -9,6 +9,7 @@
     "build:opt": "ui5 build self-contained --clean-dest --all",
     "start": "ui5 serve --port 8080 -o index.html",
     "start:dist": "ui5 serve  --port 8080 -o index.html --config ui5-dist.yaml",
+    "mock": "ui5 serve --port 8080 -o test/mockServer.html",
     "lint": "eslint webapp",
     "proxy": "node proxy.js"
   },

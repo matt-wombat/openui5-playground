@@ -42,6 +42,16 @@ As shown in the terminal after executing this command, the app is then running o
 
 (When using yarn, do `yarn start` instead.)
 
+## Run Mock Server
+
+Execute the following command to run the app locally for development in watch mode with data being provided from a local mock server:
+
+```sh
+npm run mock
+```
+
+As shown in the terminal after executing this command, the app is then running on http://localhost:8080/index.html. A browser window with this URL should automatically open.
+
 ## Build the App
 
 ### Unoptimized (but quick)
@@ -123,7 +133,7 @@ This project is licensed under the Apache Software License, version 2.0 except a
 * [Done] Step 23: Filtering
 * [Done] Step 24: Sorting and Grouping
 * [Failed] Step 25: Remote OData Service using node.js based CORS proxy "cors-anywhere"
-* Step 26: Mock Server Configuration
+* [Done] Step 26: Mock Server Configuration
 * Step 27: Unit Test with QUnit
 * Step 28: Integration Test with OPA
 * Step 29: Debugging Tools

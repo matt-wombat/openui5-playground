@@ -11,11 +11,10 @@
         },
         "dataSources": {
             "invoiceRemote": {
-                "uri": "http://localhost:8081/services.odata.org/V2/Northwind/Northwind.svc/",
+                "uri": "https://services.odata.org/V2/Northwind/Northwind.svc/",
                 "type": "OData",
                 "settings": {
-                    "odataVersion": "2.0",
-					"localUri": "localService/metadata.xml"
+                    "odataVersion": "2.0"
                 }
             }
         }
