@@ -135,7 +135,7 @@ This project is licensed under the Apache Software License, version 2.0 except a
 * [Failed] Step 25: Remote OData Service using node.js based CORS proxy "cors-anywhere"
 * [Done] Step 26: Mock Server Configuration
 * [Done] Step 27: Unit Test with QUnit
-* Step 28: Integration Test with OPA
+* [Done] Step 28: Integration Test with OPA
 * Step 29: Debugging Tools
 * Step 30: Routing and Navigation
 * Step 31: Routing with Parameters
