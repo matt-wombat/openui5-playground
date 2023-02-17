@@ -139,7 +139,7 @@ This project is licensed under the Apache Software License, version 2.0 except a
 * [Done] Step 29: Debugging Tools
 * [Done] Step 30: Routing and Navigation
 * [Done] Step 31: Routing with Parameters
-* Step 32: Routing Back and History
+* [Done] Step 32: Routing Back and History
 * Step 33: Custom Controls
 * Step 34: Responsiveness
 * Step 35: Device Adaptation
