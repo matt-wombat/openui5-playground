@@ -89,6 +89,11 @@
                     "pattern": "detail/{invoicePath}",
                     "name": "detail",
                     "target": "detail"
+                },
+                {
+                    "pattern": "rentcalc",
+                    "name": "rentcalc",
+                    "target": "rentcalc"
                 }
 			],
 			"targets": {
@@ -99,6 +104,10 @@
                 "detail": {
                     "id": "detail",
                     "name": "Detail"
+                },
+                "rentcalc": {
+                    "id": "rentcalc",
+                    "name": "RentCalc"
                 }
 			}
 		}

@@ -30,6 +30,11 @@ sap.ui.define([
             // note: No need to chain to the pDialog promise, since this event-handler
             // is only called from within the loaded dialog itself.
             this.byId("helloDialog").close();
+        },
+
+        onShowRentCalc: function(oEvent) {
+            var oRouter = this.getOwnerComponent().getRouter();
+            oRouter.navTo("rentcalc");            
         }
     });
 });

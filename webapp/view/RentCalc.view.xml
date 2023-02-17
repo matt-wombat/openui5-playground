@@ -1,0 +1,38 @@
+<mvc:View
+    controllerName="sap.ui.demo.walkthrough.controller.RentCalc"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:l="sap.ui.layout">
+    <Page
+        showNavButton="true"
+        navButtonPress=".onNavBack">
+        <Panel headerText="{i18n>myCalcTitle}"
+            class="sapUiResponsiveMargin" width="auto">
+            <content>
+                <l:VerticalLayout>
+                    <Button
+                        text="{i18n>calcRentPerc}"
+                        press=".onCalcRent" 
+                        class="sapUiSmallMarginEnd"/>
+                    <Input
+                        value="{/finance/income}"
+                        description="{i18n>myNetIncome}"
+                        valueLiveUpdate="true"
+                        liveChange=".onCalcRent"
+                        class="sapUiSmallMarginEnd"/>
+                    <Input
+                        value="{/finance/rent}"
+                        description="{i18n>myRent}"
+                        valueLiveUpdate="true"
+                        liveChange=".onCalcRent"
+                        class="sapUiSmallMarginEnd"/>
+                    <Input
+                        value="{/finance/rentPerc}"
+                        description="Percent{i18n>myPercent}"
+                        valueLiveUpdate="true"
+                        class="sapUiSmallMarginEnd"/>
+                </l:VerticalLayout>
+            </content>
+        </Panel>
+    </Page>
+</mvc:View>

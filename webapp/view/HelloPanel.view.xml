@@ -12,6 +12,10 @@
                 press=".onOpenDialog"
                 class="sapUiSmallMarginEnd" />
             <Button
+                text="{i18n>showRentCalc}"
+                press=".onShowRentCalc" 
+                class="sapUiSmallMarginEnd" />                
+            <Button
                 text="{i18n>showHelloButtonText}"
                 press=".onShowHello" 
                 class="myCustomButton" />
@@ -22,6 +26,7 @@
             <FormattedText 
                 htmlText="Hallo {/recipient/name}"
                 class="sapUiSmallMargin sapThemeHightlight-asColor myCustomText"/>
+                         
         </content>
     </Panel>
 </mvc:View>
