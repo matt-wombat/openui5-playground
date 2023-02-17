@@ -137,7 +137,7 @@ This project is licensed under the Apache Software License, version 2.0 except a
 * [Done] Step 27: Unit Test with QUnit
 * [Done] Step 28: Integration Test with OPA
 * [Done] Step 29: Debugging Tools
-* [InProgress] Step 30: Routing and Navigation
+* [Done] Step 30: Routing and Navigation
 * Step 31: Routing with Parameters
 * Step 32: Routing Back and History
 * Step 33: Custom Controls
